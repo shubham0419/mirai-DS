@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "7fowSRCBqg44UxQ1Rzojk",
+      "type": "text",
+      "x": 404.26470073046073,
+      "y": 39.257879178512894,
+      "width": 583.6795654296875,
+      "height": 125,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 127990152,
+      "version": 189,
+      "versionNonce": 890453752,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1773893234431,
+      "link": null,
+      "locked": false,
+      "text": "Inheritance -> when we embed a class(parent) properties to\nanother class(child).\n\n->childs can have more properties(methods) than parent\n  which parents don't have.",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Inheritance -> when we embed a class(parent) properties to\nanother class(child).\n\n->childs can have more properties(methods) than parent\n  which parents don't have.",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
