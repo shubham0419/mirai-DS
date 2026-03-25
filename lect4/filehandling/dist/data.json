@@ -1,0 +1,16 @@
+[
+  {
+    "name": "dummy name",
+    "roll no": 2345,
+    "class": "section A",
+    "batch": "CS",
+    "year": 1
+  },
+  {
+    "name": "my name",
+    "roll no": 2344,
+    "class": "section A",
+    "batch": "CS",
+    "year": 1
+  }
+]

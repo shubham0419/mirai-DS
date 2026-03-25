@@ -13,7 +13,8 @@ class Animal():
 class Dog(Animal):
   def __init__(self,name,color):
     self.color = color
-    super().__init__(name,"woof")       #sending(setting) attribute to parent class
+    super().__init__(name,"woof") #super calls the constructour function of parent class
+    # sending(setting) attribute to parent class
   
   def fetch(self):
     print(self.name, "is fetching ball")
@@ -53,3 +54,55 @@ tesla = electricCar("Tesla","model 3","TVR")
 tesla.printBrand()                  # grand-parent method
 tesla.drive()                       #parent method
 tesla.charge()                      #child method
+
+
+# multiple inheritance
+class Animal():
+  def __init__(self,name,sound):
+    self.name = name
+    self.sound = sound
+  
+  def speak(self):
+    print(self.sound)
+
+# inheriting parent(animal) to child(dog)
+# single inheritance 
+class Dog(Animal):
+  def __init__(self,name,color):
+    self.color = color
+    super().__init__(name,"woof")       #sending(setting) attribute to parent class
+  
+  def fetch(self):
+    print(self.name, "is fetching ball")
+
+class Cat(Animal):
+  def __init__(self, name, sound,breed):
+    self.breed = breed
+    super().__init__(name, sound)
+
+
+# multiple inheritance -> a child can have multiple parents class
+class fly():
+  def __init__(self):
+    print("i can fly")
+  
+  def canFly(self):
+    print("yes")
+
+class swim():
+  def __init__(self):
+    print("i can swim")
+
+  def canSwim(self):
+    print("yes")
+
+class duck(fly,swim):
+  # super will get confuse which one to call
+
+  def __init__(self):
+    super().__init__()
+    print("this is duck")
+
+mr_duck = duck()
+mr_duck.canFly()
+mr_duck.canSwim()
