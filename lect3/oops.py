@@ -17,7 +17,7 @@ class Dog(Animal):
     # sending(setting) attribute to parent class
   
   def fetch(self):
-    print(self.name, "is fetching ball")
+    print(self.name, " is fetching ball")
 
 wisky_the_dog = Dog("wisky","golden brown")
 wisky_the_dog.speak()           # inherited from parent(Animal)
@@ -97,7 +97,7 @@ class swim():
     print("yes")
 
 class duck(fly,swim):
-  # super will get confuse which one to call
+  # super will call the constructor function first class.
 
   def __init__(self):
     super().__init__()
