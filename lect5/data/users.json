@@ -1,56 +1,18 @@
 [
+  { "id": 1, "name": "user 1", "address": "user 1 address", "cart": [] },
+  { "id": 2, "name": "user 2", "address": "user 2 address", "cart": [] },
+  { "id": 3, "name": "user 3", "address": "user 3 address", "cart": [] },
+  { "id": 4, "name": "user 4", "address": "user 4 address", "cart": [] },
   {
-    "id":1,
-    "name":"user 1",
-    "address":"user 1 address",
-    "cart":[]
+    "id": 5,
+    "name": "user 5",
+    "address": "user 5 address",
+    "cart": [
+      { "id": 5, "name": "product 5", "type": "", "createdAt": " new Date()" }
+    ]
   },
-  {
-    "id":2,
-    "name":"user 2",
-    "address":"user 2 address",
-    "cart":[]
-  },
-  {
-    "id":3,
-    "name":"user 3",
-    "address":"user 3 address",
-    "cart":[]
-  },
-  {
-    "id":4,
-    "name":"user 4",
-    "address":"user 4 address",
-    "cart":[]
-  },
-  {
-    "id":5,
-    "name":"user 5",
-    "address":"user 5 address",
-    "cart":[]
-  },
-  {
-    "id":6,
-    "name":"user 6",
-    "address":"user 6 address",
-    "cart":[]
-  },
-  {
-    "id":7,
-    "name":"user 7",
-    "address":"user 7 address",
-    "cart":[]
-  },
-  {
-    "id":8,
-    "name":"user 8",
-    "address":"user 8 address",
-    "cart":[]
-  },
-  {
-    "id":9,
-    "name":"user 9",
-    "address":"user 9 address",
-    "cart":[]
-  }
+  { "id": 6, "name": "user 6", "address": "user 6 address", "cart": [] },
+  { "id": 7, "name": "user 7", "address": "user 7 address", "cart": [] },
+  { "id": 8, "name": "user 8", "address": "user 8 address", "cart": [] },
+  { "id": 9, "name": "user 9", "address": "user 9 address", "cart": [] }
 ]
